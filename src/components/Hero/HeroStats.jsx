@@ -9,8 +9,8 @@ function HeroStats() {
     { value: stats.sqlProblems, label: "SQL Problems" },
   ];
 
-  return (
-    <div className="grid grid-cols-3 gap-4">
+ return (
+  <div className="mb-8 md:mb-16 grid grid-cols-1 gap-4 md:grid-cols-3">
       {items.map((item) => (
         <div
           key={item.label}
