@@ -1,5 +1,5 @@
 import { FaDownload, FaFolderOpen } from "react-icons/fa";
-import Button from "../UI/Button";
+import Button from "../UI/button";
 import cv from "../../assets/cv/Abdelrahman Eltabaa CV.pdf";
 
 function HeroButtons() {
