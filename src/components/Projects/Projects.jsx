@@ -3,18 +3,25 @@ import SectionTitle from "../UI/SectionTitle";
 
 function Projects() {
   return (
-    <section id="projects" className="bg-gray-50 py-24">
+    <section
+      id="projects"
+      className="bg-gray-50 py-24 dark:bg-gray-950"
+    >
       <div className="mx-auto max-w-7xl px-6">
+
         <SectionTitle
           title="Projects"
           subtitle="Some of the Software Testing projects I have worked on."
+          titleClassName="dark:text-white"
+            subtitleClassName="dark:text-gray-300"
         />
 
         <div className="grid gap-8 md:grid-cols-2">
+
           {projects.map((project) => (
             <div
               key={project.id}
-              className="overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border-gray-700 dark:bg-gray-900"
             >
               <img
                 src={project.image}
@@ -23,17 +30,18 @@ function Projects() {
               />
 
               <div className="p-6">
+
                 {project.id === 1 && (
                   <span className="mb-3 inline-block rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white">
                     ⭐ Featured Project
                   </span>
                 )}
 
-                <h3 className="mb-3 text-2xl font-bold">
+                <h3 className="mb-3 text-2xl font-bold text-gray-900 dark:text-white">
                   {project.title}
                 </h3>
 
-                <p className="mb-5 text-gray-600">
+                <p className="mb-5 text-gray-600 dark:text-gray-300">
                   {project.description}
                 </p>
 
@@ -41,7 +49,7 @@ function Projects() {
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-700"
+                      className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-700 dark:bg-blue-900/40 dark:text-blue-300"
                     >
                       {tech}
                     </span>
@@ -56,10 +64,13 @@ function Projects() {
                 >
                   View LinkedIn Post
                 </a>
+
               </div>
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   );
