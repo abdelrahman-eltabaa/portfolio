@@ -80,12 +80,12 @@ function Contact() {
                   GitHub
                 </h3>
                 <a
-                  href="https://github.com/abdo659"
+                  href="https://github.com/abdelrahman-eltabaa"
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-600 transition hover:text-blue-600 dark:text-gray-300"
                 >
-                  github.com/abdo659
+                  github.com/abdelrahman-eltabaa
                 </a>
               </div>
             </div>
