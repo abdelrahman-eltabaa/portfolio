@@ -1,6 +1,7 @@
 const projects = [
   {
     id: 1,
+    category: "Manual",
     title: "OpenCart E-Commerce Testing",
     description:
       "End-to-end Manual Testing project on the OpenCart E-Commerce platform using Jira & Zephyr. Covered SRS analysis, Test Planning, Test Scenarios, Test Cases, Bug Reporting, RTM, Regression Testing, and comprehensive test documentation.",
@@ -20,6 +21,7 @@ const projects = [
 
   {
     id: 2,
+    category: "API",
     title: "RESTful Booker API Testing",
     description:
       "Professional API Testing project using Postman & Newman covering authentication, CRUD operations, JavaScript assertions, environment variables, automated execution, and HTML reporting.",
@@ -39,6 +41,7 @@ const projects = [
 
   {
     id: 3,
+    category: "Manual",
     title: "Guru99 Bank Manual Testing",
     description:
       "Complete Manual Testing project starting from SRS Analysis through Test Scenarios, Test Cases, RTM, Bug Reporting, Regression Testing, and final testing documentation.",
@@ -58,6 +61,7 @@ const projects = [
 
   {
     id: 4,
+    category: "Manual",
     title: "TEGY Graduation Project",
     description:
       "Performed comprehensive Manual Testing for the TEGY web and mobile application, including functional testing, exploratory testing, UI/UX validation, API verification, and detailed bug reporting.",
@@ -77,6 +81,7 @@ const projects = [
 
   {
     id: 5,
+    category: "Automation",
     title: "Swag Labs Automation Framework",
     description:
       "Automation Testing framework built using Selenium WebDriver, Java, TestNG, Page Object Model (POM), Data-Driven Testing, and reusable utilities for scalable test automation.",
@@ -95,6 +100,7 @@ const projects = [
 
   {
     id: 6,
+    category: "Automation",
     title: "Selenium Automation Framework",
     description:
       "Reusable Selenium automation framework using Java, TestNG, Page Object Model, explicit waits, assertions, and reporting to automate real-world web applications.",
@@ -111,6 +117,7 @@ const projects = [
     ],
   },  {
     id: 7,
+    category: "Automation",
     title: "OrangeHRM Cucumber Framework",
     description:
       "BDD Automation Testing framework for OrangeHRM using Selenium WebDriver, Java, Cucumber, TestNG, and Page Object Model following industry best practices.",
@@ -129,6 +136,7 @@ const projects = [
 
   {
     id: 8,
+    category: "API",
     title: "TMDB API Testing",
     description:
       "API Testing project for The Movie Database (TMDB) API using Postman. Validated endpoints, response status codes, authentication, JSON schema, and automated test scripts.",
@@ -147,6 +155,7 @@ const projects = [
 
   {
     id: 9,
+    category: "Java",
     title: "Java OOP Projects",
     description:
       "Collection of Object-Oriented Programming projects demonstrating Java fundamentals, inheritance, encapsulation, polymorphism, abstraction, and clean code practices.",
@@ -164,6 +173,7 @@ const projects = [
 
   {
     id: 10,
+    category: "Java",
     title: "Library Management System",
     description:
       "Java-based Library Management System implementing Object-Oriented Programming concepts with a clean project structure and reusable components.",
@@ -181,6 +191,7 @@ const projects = [
 
   {
     id: 11,
+    category: "Database",
     title: "Database & SQL Testing",
     description:
       "Database project covering SQL queries, joins, stored procedures, database design, CRUD operations, normalization, and data validation using MySQL.",
@@ -199,6 +210,7 @@ const projects = [
 
   {
     id: 12,
+    category: "React",
     title: "Personal Portfolio Website",
     description:
       "Responsive portfolio website built with React, Vite, and Tailwind CSS showcasing my Software QA projects, certifications, technical skills, and contact information with Dark Mode support.",
