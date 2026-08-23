@@ -60,7 +60,7 @@ function About() {
                   Certification
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  ISTQB CTFL v4
+                  ISTQB CTFL v4, ISTQB Mobile Testing
                 </p>
               </div>
 

@@ -17,8 +17,8 @@ const profile = {
 description:
   "ISTQB Certified Software QA Engineer passionate about Manual Testing, API Testing, Database Testing, Automation Testing, and delivering high-quality software.",
   stats: {
-    projects: "8+",
-    certificates: "2+",
+    projects: "14+",
+    certificates: "5+",
     sqlProblems: "50+",
     experience: "QA"
   }

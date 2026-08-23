@@ -88,7 +88,7 @@ const projects = [
     image: "/projects/swaglabs.png",
     github:
       "https://github.com/abdelrahman-eltabaa/SwagLabsAutomation",
-    linkedin: "",
+    linkedin: "https://lnkd.in/p/ewuyJ4y2",
     technologies: [
       "Automation",
       "Selenium",
@@ -118,19 +118,21 @@ const projects = [
   },  {
     id: 7,
     category: "Automation",
-    title: "OrangeHRM Cucumber Framework",
+    title: "OrangeHRM Test Automation Framework",
     description:
-      "BDD Automation Testing framework for OrangeHRM using Selenium WebDriver, Java, Cucumber, TestNG, and Page Object Model following industry best practices.",
+      "Maintainable and scalable UI test automation framework for OrangeHRM using Java, Selenium WebDriver, TestNG, Maven, and Page Object Model. It covers login, employee management, PIM, admin flows, validations, and end-to-end employee creation with data-driven testing and parallel execution.",
     image: "/projects/orangehrm.png",
     github:
-      "https://github.com/abdelrahman-eltabaa/Cucumber",
+      "https://github.com/abdelrahman-eltabaa/Graduation-Project-OrangeHrm",
     linkedin: "",
     technologies: [
-      "Cucumber",
-      "BDD",
-      "Selenium",
       "Java",
+      "Selenium",
       "TestNG",
+      "Maven",
+      "POM",
+      "Allure",
+      "Jackson",
     ],
   },
 
@@ -223,6 +225,43 @@ const projects = [
       "Vite",
       "Tailwind CSS",
       "Responsive Design",
+    ],
+  },
+
+  {
+    id: 13,
+    category: "API",
+    title: "REST Assured API Testing Framework",
+    description:
+      "REST Assured automation framework built with Java, Maven, and TestNG for validating RESTful APIs. It covers GET, POST, PUT, DELETE, request specifications, JSON assertions, authentication, and reusable API test flows.",
+    image: "/projects/restassured.jpg",
+    github: "https://github.com/abdelrahman-eltabaa/Rest-Assured",
+    linkedin: "",
+    technologies: [
+      "Java",
+      "REST Assured",
+      "TestNG",
+      "Maven",
+      "JSON",
+      "Hamcrest",
+    ],
+  },
+
+  {
+    id: 15,
+    category: "Automation",
+    title: "E-Commerce UI Automation Suite",
+    description:
+      "Front-end automation initiative using Selenium and Java to validate login, carts, search flows, and checkout behavior with reusable page objects and stable test scripts.",
+    image: "/projects/swaglabs.png",
+    github: "https://github.com/abdelrahman-eltabaa/Ecommerce-UI-Automation",
+    linkedin: "",
+    technologies: [
+      "Selenium",
+      "Java",
+      "POM",
+      "Web Testing",
+      "UI Automation",
     ],
   },
 ];

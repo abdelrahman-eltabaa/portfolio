@@ -55,7 +55,25 @@ function Experience() {
 
                 </div>
 
-                <div className="mb-6 flex items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
+                {job.summary && job.summary.length > 0 && (
+                  <div className="mb-6">
+                    <div className="mb-3 flex items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
+                      <FaBriefcase className="text-blue-600" />
+                      Responsibilities
+                    </div>
+
+                    <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                      {job.summary.map((item) => (
+                        <li key={item} className="flex gap-3 text-sm leading-7 sm:text-base">
+                          <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-blue-600"></span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                <div className="mb-4 flex items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
                   <FaBriefcase className="text-blue-600" />
                   Technologies & Responsibilities
                 </div>
