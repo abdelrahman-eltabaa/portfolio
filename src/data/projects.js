@@ -264,6 +264,25 @@ const projects = [
       "UI Automation",
     ],
   },
+
+  {
+    id: 16,
+    category: "Automation",
+    title: "Cucumber BDD Automation Framework",
+    description:
+      "BDD automation framework for OrangeHRM using Java, Selenium WebDriver, Cucumber, TestNG, Maven, and the Page Object Model. Includes Gherkin feature files, reusable step definitions, hooks, and data-driven login scenarios.",
+    image: "/projects/cucumber.jpg",
+    github: "https://github.com/abdelrahman-eltabaa/Cucumber",
+    linkedin: "",
+    technologies: [
+      "Java",
+      "Selenium",
+      "Cucumber",
+      "TestNG",
+      "Maven",
+      "POM",
+    ],
+  },
 ];
 
 export default projects;
