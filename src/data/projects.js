@@ -124,7 +124,7 @@ const projects = [
     image: "/projects/orangehrm.png",
     github:
       "https://github.com/abdelrahman-eltabaa/Graduation-Project-OrangeHrm",
-    linkedin: "",
+    linkedin: "https://lnkd.in/p/ehC5t_NA",
     technologies: [
       "Java",
       "Selenium",
